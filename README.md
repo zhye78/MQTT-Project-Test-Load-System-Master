@@ -11,6 +11,7 @@
 ## 2. 그 중 ①Test Load System 파트
 <img src = "https://user-images.githubusercontent.com/38847724/127683774-042e2655-2b6c-415d-9a99-d847c3959986.png" width="90%" height="90%">
 
+
 ## 3. 테스트 로드 시스템 구성도
 <img src = "https://user-images.githubusercontent.com/38847724/127761039-8c0a1442-0f10-4c14-989f-b1bd9f01d5c9.png" width="80%" height="80%">
 
@@ -21,4 +22,15 @@
  - 그리고 master PC가 client PC들에게 명령을 내리기 위해 사용하는 MQTT Mosquitto Broker(Raspberry Pi 3)와, 
  - Target Message Server로 구성됩니다.
  
- 그 중 이곳에는 여러 client PC들에 메시지 유발을 지시하는 Test-Load-Master 프로그램을 업로드했습니다.
+ 그 중 이곳에는 여러 client PC들에 메시지 유발을 지시하는 Test-Load-Generator-Master 프로그램을 업로드했습니다.
+
+
+## 4. 테스트 로드 마스터 프로그램 UI
+- 로드 제너레이터 start
+<img src = "https://user-images.githubusercontent.com/38847724/127761315-b616665e-6700-4d16-a8ff-62301adf7fe2.png" width="80%" height="80%">
+
+- 로드 제너레이터 home
+<img src = "https://user-images.githubusercontent.com/38847724/127761374-f6a29e1b-ca3e-4040-94a0-c67ffb46d871.png" width="80%" height="80%">
+
+- 로드 제너레이터 options
+<img src = "https://user-images.githubusercontent.com/38847724/127761388-ba563226-69de-42d9-a6c9-791bf2d1a5a7.png" width="80%" height="80%">
